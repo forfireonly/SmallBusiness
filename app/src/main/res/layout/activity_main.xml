@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listgrad"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/sombrero"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/authentic_mexican_cuisine"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/authentic_mexican_cuisine" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/si_se_or_restaraunt"
+        android:textColor="@color/text_color"
+        android:shadowColor="@color/shadow_color"
+        android:shadowDx="7"
+        android:shadowDy="8"
+        android:shadowRadius="7"
+        android:textSize="@dimen/si_senor_restaraunt"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/hours_of_operation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/open_daily_11_00_am_8_00_pm"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/open_daily"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/food_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu"
+         />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/phone"
+        android:layout_marginTop="@dimen/border_eight"
+        android:autoLink="all"
+        android:drawablePadding="@dimen/border_eight"
+        android:layout_gravity="center_horizontal"
+        android:padding="@dimen/border_sixteen"
+        android:background="@drawable/textframe"
+        android:text="@string/_575_404_7636"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/phone"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/map"
+        android:background="@drawable/textframe"
+        android:padding="@dimen/border_sixteen"
+        android:layout_marginTop="@dimen/border_sixteen"
+        android:layout_gravity="center_horizontal"
+        android:drawablePadding="@dimen/border_eight"
+        android:text="@string/_2300_n_white_sands_blvd_nalamogordo_nm_88310"
+        android:autoLink="map"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/address"
+        android:textStyle="bold" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalscrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/border_sixteen"
+        android:layout_marginTop="@dimen/border_sixteen">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/feedback_color"
+                android:drawableLeft="@drawable/message"
+                android:drawablePadding="@dimen/border_eight"
+                android:text="@string/the_best_in_town_food_and_service_ntrue_green_chile_and_awesome_red_n_love_them_both"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/feedback"
+                android:padding="@dimen/feedback_border"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/feedback_color"
+                android:drawableLeft="@drawable/message"
+                android:drawablePadding="@dimen/border_eight"
+                android:text="@string/had_lunch_there_today_the_food_was_n_amazing_and_our_waitress_was_helpful_ndefinitely_will_be_back"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/feedback"
+                android:padding="@dimen/feedback_border"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/feedback_color"
+                android:drawableLeft="@drawable/message"
+                android:drawablePadding="@dimen/border_eight"
+                android:text="@string/best_lime_margarita_i_ve_ever_had_nwhen_made_with_wine"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/feedback"
+                android:padding="@dimen/feedback_border"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="authentic_mexican_cuisine">32sp</dimen>
+    <dimen name="si_senor_restaraunt">42sp</dimen>
+    <dimen name="open_daily">25sp</dimen>
+    <dimen name="border_eight">8dp</dimen>
+    <dimen name="border_sixteen">16dp</dimen>
+    <dimen name="phone">20sp</dimen>
+    <dimen name="address">20sp</dimen>
+    <dimen name="feedback">20sp</dimen>
+    <dimen name="feedback_border">10dp</dimen>
+</resources>
